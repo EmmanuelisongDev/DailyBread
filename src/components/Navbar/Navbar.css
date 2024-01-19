@@ -1,0 +1,103 @@
+
+.navbar{
+    @apply
+    flex
+    justify-between
+    py-3
+    px-[5%]
+    items-center
+    w-full
+   text-black
+    bg-transparent
+    relative
+    z-40
+    
+    shadow-lg
+    border-b-[2px] 
+    border-black
+}
+.active{
+    @apply
+    bg-[#fcffe9]
+}
+
+.left{
+    @apply
+    text-sm
+    font-bold
+    z-50
+    sm:text-xl
+    xl:text-lg
+
+}
+
+.center{
+    @apply
+    text-center
+    font-medium
+    text-xs
+    sm:text-sm
+}
+
+.right .menu{
+    @apply
+    font-bold
+    text-sm
+    relative
+    z-50
+    sm:hidden 
+}
+
+ .nav-links{
+    @apply
+    opacity-0
+    pointer-events-none
+    duration-500
+    fixed
+    top-0
+    left-0
+    w-full
+    h-auto
+    text-sm
+    border-b-[2px] 
+    border-black
+    bg-[#ffff]
+    sm:backdrop-blur-0
+    sm:pointer-events-auto
+    sm:bg-transparent
+    sm:left-0
+    sm:relative
+    sm:opacity-100
+    sm:text-xl
+}
+
+.showing{
+    @apply
+    opacity-100
+    pointer-events-auto
+}
+
+.right .nav-links ul{
+    @apply
+    relative
+    mt-40
+    ml-14
+    sm:flex
+    sm:m-0
+    sm:justify-between
+    sm:gap-3
+    sm:text-xl
+    bg-opacity-30
+}
+
+.right .nav-links ul li{
+    @apply
+    text-4xl
+    mb-5
+    duration-150
+    transition-all
+    font-bold
+    sm:text-xl
+    xl:text-lg
+    sm:mb-0
+}

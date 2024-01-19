@@ -1,0 +1,8 @@
+
+
+.section-background{
+    background-color: #fff;
+    opacity: 0.9;
+    background-size: 30px 30px;
+    background-image:  repeating-linear-gradient(to right, #0000ff, #0000ff 1.5px, #fff 1.5px, #fff);
+}
